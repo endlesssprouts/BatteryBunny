@@ -14,6 +14,9 @@ public class LevelManager : MonoBehaviour {
     
     public Text txScore;
 
+    public GameObject goPlayer;
+    private Vector3 MovingTo;
+
     private float maxBatteryCapacity = 5;
     private float powerInBattery;
 
@@ -25,6 +28,7 @@ public class LevelManager : MonoBehaviour {
     void Start () {
         powerInBattery = maxBatteryCapacity;
         setInPlay();
+        MovingTo = goPlayer.transform.position;
 
     }
 	
@@ -52,6 +56,27 @@ public class LevelManager : MonoBehaviour {
             }
 
 
+            float moveSpeed = 2f;
+            float movementAmount = 1;
+            float step = moveSpeed * Time.deltaTime;
+
+            if (Input.GetKeyDown("up"))
+            {
+                Vector3 xPositive = goPlayer.transform.position;
+                xPositive.x += movementAmount;
+                MovingTo = xPositive;
+            }
+
+            if (Input.GetKeyDown("down"))
+            {
+                Vector3 xNegitive = goPlayer.transform.position;
+                xNegitive.x -= movementAmount;
+                MovingTo = xNegitive;
+            }
+
+
+            goPlayer.transform.position = Vector3.MoveTowards(goPlayer.transform.position, MovingTo, step);
+
             if (powerInBattery <= 0)
                 setGameOver();
         }
@@ -74,6 +99,12 @@ public class LevelManager : MonoBehaviour {
         goInPlay.SetActive(true);
         goFinished.SetActive(false);
     }
+    
+    internal void drainBattery()
+    {
+        powerInBattery -= 1f;
+    }
+
 }
 
 enum State { InPlay, Finished };
