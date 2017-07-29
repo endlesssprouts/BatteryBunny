@@ -5,11 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public LevelManager lmLevelManager;
+    
+    public Animator anim;
 
-    public 
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -23,6 +23,7 @@ public class Player : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Obstacle")
         {
+            anim.Play("Bunny|Hit");
             lmLevelManager.drainBattery();
         }
     }

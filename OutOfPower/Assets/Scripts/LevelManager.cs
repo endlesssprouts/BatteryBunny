@@ -8,6 +8,9 @@ public class LevelManager : MonoBehaviour {
     
     public Text txPowerToGenerate;
     public Text txPowerInBattery;
+    
+    public Slider slPowerIndicator;
+    public Slider slBatteryIndicator;
 
     public GameObject goInPlay;
     public GameObject goFinished;
@@ -38,8 +41,11 @@ public class LevelManager : MonoBehaviour {
             float timeToReachMax = 1f;
             float percentToGenerate = (Mathf.PingPong(Time.time, timeToReachMax) / timeToReachMax);
             txPowerToGenerate.text = percentToGenerate * 100 + "%";
-        
-            powerInBattery -= Time.deltaTime ;
+
+            slPowerIndicator.value = percentToGenerate;
+            slBatteryIndicator.value = powerInBattery / maxBatteryCapacity;
+
+    powerInBattery -= Time.deltaTime ;
             txPowerInBattery.text = powerInBattery + "";
             
             score += 0 + Time.deltaTime;
