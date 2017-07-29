@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="33.60688mm"
+   height="33.60688mm"
+   viewBox="0 0 33.60688 33.60688"
+   version="1.1"
+   id="svg4515"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="PowerButton.svg">
+  <defs
+     id="defs4509" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="60.734961"
+     inkscape:cy="83.349494"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4512">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.701458,-135.33648)">
+    <g
+       id="g5134">
+      <circle
+         r="16.30344"
+         cy="152.13992"
+         cx="46.504898"
+         id="path5062"
+         style="fill:#ffd700;fill-opacity:1;stroke:#cdb332;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="11.700567"
+         cy="152.34038"
+         cx="46.427338"
+         id="path5062-5"
+         style="fill:#ff0000;fill-opacity:1;stroke:#cd3232;stroke-width:0.71767485;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="8.8480835"
+         cy="152.67444"
+         cx="46.371265"
+         id="path5062-5-1"
+         style="fill:#ff2525;fill-opacity:1;stroke:none;stroke-width:0.54271275;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         transform="rotate(25.301378)"
+         ry="1.7372519"
+         rx="3.6749561"
+         cy="109.19338"
+         cx="106.23605"
+         id="path5079"
+         style="fill:#ffffff;fill-opacity:0.78155338;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         transform="matrix(0.45246141,0.89178398,-0.82899765,0.55925208,0,0)"
+         ry="1.2856563"
+         rx="2.4574606"
+         cy="18.543064"
+         cx="154.47757"
+         id="path5079-3"
+         style="fill:#ffffff;fill-opacity:0.67961162;stroke:none;stroke-width:0.70347434;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5126"
+         d="m 48.040025,144.53616 -6.249357,9.13367 h 4.967438 l -3.044558,7.37104 7.210794,-9.77463 h -5.127676 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.31725878px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="33.60688mm"
+   height="33.60688mm"
+   viewBox="0 0 33.60688 33.60688"
+   version="1.1"
+   id="svg4515"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="RestartButton.svg"
+   inkscape:export-filename="C:\Users\sprou\Documents\OutOfPower\Gimp Files\PowerButton.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs4509">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 16.80344 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="33.60688 : 16.80344 : 1"
+       inkscape:persp3d-origin="16.80344 : 11.202293 : 1"
+       id="perspective5738" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="153.33919"
+     inkscape:cy="13.012785"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4512">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.701458,-135.33648)">
+    <g
+       id="Restart">
+      <g
+         id="g5134">
+        <circle
+           style="fill:#ffd700;fill-opacity:1;stroke:#cdb332;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5062"
+           cx="46.504898"
+           cy="152.13992"
+           r="16.30344" />
+        <circle
+           style="fill:#ff0000;fill-opacity:1;stroke:#cd3232;stroke-width:0.71767485;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5062-5"
+           cx="46.427338"
+           cy="152.34038"
+           r="11.700567" />
+        <circle
+           style="fill:#ff2525;fill-opacity:1;stroke:none;stroke-width:0.54271275;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5062-5-1"
+           cx="46.371265"
+           cy="152.67444"
+           r="8.8480835" />
+        <ellipse
+           style="fill:#ffffff;fill-opacity:0.78155338;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5079"
+           cx="106.23605"
+           cy="109.19338"
+           rx="3.6749561"
+           ry="1.7372519"
+           transform="rotate(25.301378)" />
+        <ellipse
+           style="fill:#ffffff;fill-opacity:0.67961162;stroke:none;stroke-width:0.70347434;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path5079-3"
+           cx="154.47757"
+           cy="18.543064"
+           rx="2.4574606"
+           ry="1.2856563"
+           transform="matrix(0.45246141,0.89178398,-0.82899765,0.55925208,0,0)" />
+      </g>
+      <path
+         sodipodi:nodetypes="cccccccczc"
+         inkscape:connector-curvature="0"
+         id="path5736"
+         d="m 45.442827,151.24575 v 3.26441 l -3.996098,-3.99608 4.052379,-5.51576 2e-6,3.48957 c 0,0 5.63454,0.61878 5.853438,4.55892 -0.0098,3.74696 -1.812892,6.95107 -8.457511,6.50776 v -2.58902 c 0,0 4.745205,0.11767 5.30927,-1.9383 0.564065,-2.05597 0.390377,-3.7815 -2.76148,-3.7815 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#fdfdfd;stroke-width:0.44573915px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

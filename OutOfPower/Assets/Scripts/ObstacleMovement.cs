@@ -5,14 +5,10 @@ using UnityEngine;
 public class ObstacleMovement : MonoBehaviour
 {
     public bool isForward = true;
-    private Rigidbody rb;
     private Vector3 forceToApply;
 
     // Use this for initialization
     void Start () {
-
-        rb = GetComponent<Rigidbody>();
-
         if (isForward)
             forceToApply = Vector3.forward * 5.0f;
         else
