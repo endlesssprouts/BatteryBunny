@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject goPlayer;
     private Vector3 MovingTo;
 
-    private float maxBatteryCapacity = 5;
+    private float maxBatteryCapacity = 10;
     private float powerInBattery;
 
     private float score = 0;
@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour {
             score += 0 + Time.deltaTime;
             txScore.text = score + "";
 
-            float maxPowerThatCanBeAdded = 1f;
+            float maxPowerThatCanBeAdded = 3f;
             if (Input.GetKeyDown("space"))
             {
                 if (powerInBattery + maxPowerThatCanBeAdded > maxBatteryCapacity)
