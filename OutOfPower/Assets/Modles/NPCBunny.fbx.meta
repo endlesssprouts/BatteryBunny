@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 34b3bc1d5c046984dbb1cde70ddb5574
+timeCreated: 1501336405
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bunny
+    100002: BunnyMesh
+    100004: Chest
+    100006: Hand
+    100008: Hand_end
+    100010: Head
+    100012: Head.001
+    100014: Head.002
+    100016: Head.003
+    100018: Head.003_end
+    100020: Head.004
+    100022: Head.005
+    100024: Head.006
+    100026: Head.006_end
+    100028: LeftArmLower
+    100030: LeftArmUpper
+    100032: LeftLeg
+    100034: LeftLeg_end
+    100036: LeftSholder
+    100038: Main
+    100040: Main.001
+    100042: Main.001_end
+    100044: Neck
+    100046: //RootNode
+    100048: RightHand
+    100050: RightHand_end
+    100052: RightLeg
+    100054: RightLeg_end
+    100056: RightLowerArm
+    100058: RightSholder
+    100060: RightUpperArm
+    100062: Waste
+    400000: Bunny
+    400002: BunnyMesh
+    400004: Chest
+    400006: Hand
+    400008: Hand_end
+    400010: Head
+    400012: Head.001
+    400014: Head.002
+    400016: Head.003
+    400018: Head.003_end
+    400020: Head.004
+    400022: Head.005
+    400024: Head.006
+    400026: Head.006_end
+    400028: LeftArmLower
+    400030: LeftArmUpper
+    400032: LeftLeg
+    400034: LeftLeg_end
+    400036: LeftSholder
+    400038: Main
+    400040: Main.001
+    400042: Main.001_end
+    400044: Neck
+    400046: //RootNode
+    400048: RightHand
+    400050: RightHand_end
+    400052: RightLeg
+    400054: RightLeg_end
+    400056: RightLowerArm
+    400058: RightSholder
+    400060: RightUpperArm
+    400062: Waste
+    4300000: BunnyMesh
+    7400000: Bunny|Down
+    7400002: Bunny|Hit
+    7400004: Bunny|Running
+    9500000: //RootNode
+    13700000: BunnyMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

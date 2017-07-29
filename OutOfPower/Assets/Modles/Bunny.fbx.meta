@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: f870f36aba52c6d44a821f0a34b7170d
+timeCreated: 1501336406
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bunny
+    100004: BunnyMesh
+    100006: Chest
+    100008: Hand
+    100010: Hand_end
+    100012: Head
+    100014: Head.001
+    100016: Head.002
+    100018: Head.003
+    100020: Head.003_end
+    100022: Head.004
+    100024: Head.005
+    100026: Head.006
+    100028: Head.006_end
+    100030: LeftArmLower
+    100032: LeftArmUpper
+    100034: LeftLeg
+    100036: LeftLeg_end
+    100038: LeftSholder
+    100040: Main
+    100042: Main.001
+    100044: Main.001_end
+    100046: Neck
+    100048: RightHand
+    100050: RightHand_end
+    100052: RightLeg
+    100054: RightLeg_end
+    100056: RightLowerArm
+    100058: RightSholder
+    100060: RightUpperArm
+    100062: Waste
+    400000: //RootNode
+    400002: Bunny
+    400004: BunnyMesh
+    400006: Chest
+    400008: Hand
+    400010: Hand_end
+    400012: Head
+    400014: Head.001
+    400016: Head.002
+    400018: Head.003
+    400020: Head.003_end
+    400022: Head.004
+    400024: Head.005
+    400026: Head.006
+    400028: Head.006_end
+    400030: LeftArmLower
+    400032: LeftArmUpper
+    400034: LeftLeg
+    400036: LeftLeg_end
+    400038: LeftSholder
+    400040: Main
+    400042: Main.001
+    400044: Main.001_end
+    400046: Neck
+    400048: RightHand
+    400050: RightHand_end
+    400052: RightLeg
+    400054: RightLeg_end
+    400056: RightLowerArm
+    400058: RightSholder
+    400060: RightUpperArm
+    400062: Waste
+    4300000: BunnyMesh
+    7400000: Bunny|Down
+    7400002: Bunny|Hit
+    7400004: Bunny|Running
+    9500000: //RootNode
+    13700000: BunnyMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bunny|Down
+      takeName: Bunny|Down
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: Bunny/Main
+        weight: 1
+      - path: Bunny/Main/LeftLeg
+        weight: 1
+      - path: Bunny/Main/LeftLeg/LeftLeg_end
+        weight: 1
+      - path: Bunny/Main/Main.001
+        weight: 1
+      - path: Bunny/Main/Main.001/Main.001_end
+        weight: 1
+      - path: Bunny/Main/RightLeg
+        weight: 1
+      - path: Bunny/Main/RightLeg/RightLeg_end
+        weight: 1
+      - path: Bunny/Main/Waste
+        weight: 1
+      - path: Bunny/Main/Waste/Chest
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand/Hand_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003/Head.003_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006/Head.006_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand/RightHand_end
+        weight: 1
+      - path: BunnyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bunny|Hit
+      takeName: Bunny|Hit
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: Bunny/Main
+        weight: 1
+      - path: Bunny/Main/LeftLeg
+        weight: 1
+      - path: Bunny/Main/LeftLeg/LeftLeg_end
+        weight: 1
+      - path: Bunny/Main/Main.001
+        weight: 1
+      - path: Bunny/Main/Main.001/Main.001_end
+        weight: 1
+      - path: Bunny/Main/RightLeg
+        weight: 1
+      - path: Bunny/Main/RightLeg/RightLeg_end
+        weight: 1
+      - path: Bunny/Main/Waste
+        weight: 1
+      - path: Bunny/Main/Waste/Chest
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand/Hand_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003/Head.003_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006/Head.006_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand/RightHand_end
+        weight: 1
+      - path: BunnyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bunny|Running
+      takeName: Bunny|Running
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: Bunny/Main
+        weight: 1
+      - path: Bunny/Main/LeftLeg
+        weight: 1
+      - path: Bunny/Main/LeftLeg/LeftLeg_end
+        weight: 1
+      - path: Bunny/Main/Main.001
+        weight: 1
+      - path: Bunny/Main/Main.001/Main.001_end
+        weight: 1
+      - path: Bunny/Main/RightLeg
+        weight: 1
+      - path: Bunny/Main/RightLeg/RightLeg_end
+        weight: 1
+      - path: Bunny/Main/Waste
+        weight: 1
+      - path: Bunny/Main/Waste/Chest
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/LeftSholder/LeftArmUpper/LeftArmLower/Hand/Hand_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.001/Head.002/Head.003/Head.003_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/Neck/Head/Head.004/Head.005/Head.006/Head.006_end
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand
+        weight: 1
+      - path: Bunny/Main/Waste/Chest/RightSholder/RightUpperArm/RightLowerArm/RightHand/RightHand_end
+        weight: 1
+      - path: BunnyMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

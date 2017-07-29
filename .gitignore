@@ -32,3 +32,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/Blender Files/run_cycle_02.jpg
+*.blend1
