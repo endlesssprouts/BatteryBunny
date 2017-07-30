@@ -20,12 +20,22 @@ public class Player : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Obstacle")
+        if (collision.gameObject.tag == "Obstacle" )
         {
             anim.Play("Bunny|Hit");
             lmLevelManager.drainBattery();
 
             lmLevelManager.PlayHit();
         }
+        if (collision.gameObject.tag == "ObstacleBigD")
+        {
+            anim.Play("Bunny|Hit");
+            lmLevelManager.PlayHit();
+        }
+    }
+
+    public void PlayDead()
+    {
+        anim.Play("Bunny|Down");
     }
 }
