@@ -209,14 +209,17 @@ public class LevelManager : MonoBehaviour {
 
     IEnumerator MakeGround()
     {
-        ObstacleMovement ground = Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
-        ObstacleMovement background = Instantiate(goBackgroundGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
-        ground.lmLevelInfo = GetComponent<LevelManager>();
-        background.lmLevelInfo = GetComponent<LevelManager>();
-        yield return new WaitForSeconds(groundSpawnTime);
+        if (currentSate == State.InPlay)
+        {
+            ObstacleMovement ground = Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
+            ObstacleMovement background = Instantiate(goBackgroundGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
+            ground.lmLevelInfo = GetComponent<LevelManager>();
+            background.lmLevelInfo = GetComponent<LevelManager>();
+            yield return new WaitForSeconds(groundSpawnTime);
 
-
-        StartCoroutine("MakeGround");
+            StartCoroutine("MakeGround");
+        }
+        
     }
 
     IEnumerator ReleasePowerLock()
