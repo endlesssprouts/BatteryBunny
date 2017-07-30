@@ -50,6 +50,8 @@ public class LevelManager : MonoBehaviour {
     private bool powerButtonLocked = false;
 
     public Button buMorePowerButton;
+    
+    public GameObject goBackgroundGroundPrefab;
 
     // Use this for initialization
     void Start () {
@@ -143,7 +145,7 @@ public class LevelManager : MonoBehaviour {
 
             if (percentToGenerate > difficultylevel)
             {
-                float maxPowerThatCanBeAdded = 2.1f;
+                float maxPowerThatCanBeAdded = 2.3f;
                 if (powerInBattery + maxPowerThatCanBeAdded > maxBatteryCapacity)
                     powerInBattery = maxBatteryCapacity;
                 else
@@ -209,6 +211,7 @@ public class LevelManager : MonoBehaviour {
         while (true)
         {
             Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity);
+            Instantiate(goBackgroundGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity);
             yield return new WaitForSeconds(groundSpawnTime);
         }
     }
