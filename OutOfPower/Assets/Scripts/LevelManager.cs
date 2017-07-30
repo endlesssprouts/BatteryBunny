@@ -122,6 +122,7 @@ public class LevelManager : MonoBehaviour {
 
     private void setGameOver()
     {
+        goPlayer.GetComponent<Rigidbody>().detectCollisions = false;
         goPlayer.GetComponent<Player>().PlayDead();
         currentSate = State.Finished;
         goInPlay.SetActive(false);
