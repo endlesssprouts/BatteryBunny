@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour {
 
     private float score = 0;
 
-    private State currentSate;
+    public State currentSate;
 
     private float groundSpawnTime = 2f;
 
@@ -208,12 +208,14 @@ public class LevelManager : MonoBehaviour {
 
     IEnumerator MakeGround()
     {
-        while (true)
-        {
-            Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity);
-            Instantiate(goBackgroundGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity);
-            yield return new WaitForSeconds(groundSpawnTime);
-        }
+        ObstacleMovement ground = Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
+        ObstacleMovement background = Instantiate(goBackgroundGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity).GetComponent<ObstacleMovement>();
+        ground.lmLevelInfo = GetComponent<LevelManager>();
+        background.lmLevelInfo = GetComponent<LevelManager>();
+        yield return new WaitForSeconds(groundSpawnTime);
+
+
+        StartCoroutine("MakeGround");
     }
 
     IEnumerator ReleasePowerLock()
@@ -232,4 +234,4 @@ public class LevelManager : MonoBehaviour {
 
 }
 
-enum State { InPlay, Finished };
+public enum State { InPlay, Finished };

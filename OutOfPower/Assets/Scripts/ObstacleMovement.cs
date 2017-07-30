@@ -9,6 +9,8 @@ public class ObstacleMovement : MonoBehaviour
     public bool isBattery = false;
     public bool isTutorial = false;
 
+    public LevelManager lmLevelInfo;
+
     // Use this for initialization
     void Start () {
         if (isForward)
@@ -17,11 +19,16 @@ public class ObstacleMovement : MonoBehaviour
             forceToApply = Vector3.back * 5.0f;
         
     }
+
+    void SetLevelManager(LevelManager mainLevelManager)
+    {
+        lmLevelInfo = mainLevelManager;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-
-        transform.Translate(forceToApply * Time.deltaTime );
+        if(lmLevelInfo.currentSate == State.InPlay)
+            transform.Translate(forceToApply * Time.deltaTime );
 
         if(isBattery == false)
         {
