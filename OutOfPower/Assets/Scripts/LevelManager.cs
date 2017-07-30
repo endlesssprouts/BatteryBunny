@@ -38,12 +38,17 @@ public class LevelManager : MonoBehaviour {
 
     private State currentSate;
 
+    private float groundSpawnTime = 2f;
+
+    public GameObject goGroundPrefab;
+
     // Use this for initialization
     void Start () {
         powerInBattery = maxBatteryCapacity;
         setInPlay();
         MovingTo = goPlayer.transform.position;
 
+        StartCoroutine("MakeGround");
     }
 	
 	// Update is called once per frame
@@ -167,6 +172,15 @@ public class LevelManager : MonoBehaviour {
         Scene scene = SceneManager.GetActiveScene();
 
         SceneManager.LoadScene(scene.name);
+    }
+
+    IEnumerator MakeGround()
+    {
+        while (true)
+        {
+            Instantiate(goGroundPrefab, new Vector3(0f, 0f, -20f), Quaternion.identity);
+            yield return new WaitForSeconds(groundSpawnTime);
+        }
     }
 
 }

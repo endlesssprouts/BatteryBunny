@@ -21,9 +21,10 @@ public class ObstacleMovement : MonoBehaviour
         transform.Translate(forceToApply * Time.deltaTime );
 
         if (transform.position.z >= 20f)
-            transform.position = new Vector3(transform.position.x, transform.position.y, -20f);
+            Destroy(gameObject);
+        //transform.position = new Vector3(transform.position.x, transform.position.y, -20f);
 
-        
+
     }
     
 }
